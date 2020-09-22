@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">  
+    <item  android:id="@+id/three"  
+        android:title="Item 3"  
+        android:icon="@drawable/ic_shuffle_variant"
+        app:showAsAction="always"/>
+    <item  android:id="@+id/two"  
+        android:title="Item 2"  
+        android:icon="@drawable/ic_playlist_check"
+        app:showAsAction="always"/>
+    <item  android:id="@+id/one"  
+        android:title="Overflow"  
+        android:icon="@drawable/ic_chess_king"
+        app:showAsAction="always">
+    <menu>
+    <item  android:id="@+id/settings"  
+        android:title="Settings"/>  
+    <item  android:id="@+id/cfu"  
+        android:title="Check for Updates"/>  
+    <item  android:id="@+id/about"  
+        android:title="About"/> 
+    <item  android:id="@+id/exit"  
+        android:title="Exit"/> 
+    </menu> 
+    </item>
+</menu>  
+    
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mp3Listview</string>
+    <string name="hello_world">Hello, World!</string>
+    
+    <string name="back"><![CDATA[|<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="pause">||</string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="next"><![CDATA[>|]]></string>
+    
+</resources>
